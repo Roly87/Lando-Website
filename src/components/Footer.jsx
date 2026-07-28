@@ -11,7 +11,7 @@ export default function Footer() {
           <Link to="/" className="flex items-center gap-3 no-underline" style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, letterSpacing: "0.02em", textDecoration: "none", fontSize: "20px" }}>
             <span
               className="flex items-center justify-center w-9 h-9 rounded-[10px] text-[15px] font-bold"
-              style={{ background: "linear-gradient(100deg, #ff78c6, #9c7cff 55%, #68b7ff)", }}
+              style={{ background: "linear-gradient(100deg, #6366f1, #8b5cf6 55%, #3b82f6)", }}
             >
               LD
             </span>

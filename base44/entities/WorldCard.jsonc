@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "icon": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "WorldCard"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "index": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "TimelineCard"
+}
