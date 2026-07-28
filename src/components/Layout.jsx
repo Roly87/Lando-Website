@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 export default function Layout() {
   return (
-    <div style={{ minHeight: "100vh", }}>
+    <div className="min-h-screen bg-background text-foreground">
       <Header />
       <main>
         <Outlet />

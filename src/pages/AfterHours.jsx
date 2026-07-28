@@ -51,14 +51,14 @@ export default function AfterHours() {
       className="min-h-screen"
       style={{
         background:
-          "radial-gradient(circle at 80% 0, rgba(99,102,241,.16), transparent 28%), radial-gradient(circle at 10% 70%, rgba(139,92,246,.16), transparent 30%), #0d0912",
+          "radial-gradient(circle at 80% 0, rgba(37,99,235,.16), transparent 28%), radial-gradient(circle at 10% 70%, rgba(124,58,237,.16), transparent 30%), #0a0a0f",
         color: "#fbf5ff",
         fontFamily: "'DM Sans', sans-serif",
         paddingTop: 80,
       }}
     >
       <div style={{ width: "min(calc(100% - 32px), 1050px)", margin: "0 auto", padding: "80px 0 120px" }}>
-        <div className="eyebrow" style={{ color: "#8b5cf6", fontSize: ".7rem", fontWeight: 800, letterSpacing: ".15em", textTransform: "uppercase" }}>
+        <div className="eyebrow" style={{ color: "#7c3aed", fontSize: ".7rem", fontWeight: 800, letterSpacing: ".15em", textTransform: "uppercase" }}>
           A less public side of the site
         </div>
 
@@ -77,7 +77,7 @@ export default function AfterHours() {
           <span
             style={{
               color: "transparent",
-              background: "linear-gradient(100deg, #6366f1, #8b5cf6, #3b82f6)",
+              background: "linear-gradient(100deg, #2563eb, #7c3aed)",
               WebkitBackgroundClip: "text",
               backgroundClip: "text",
             }}
@@ -131,7 +131,7 @@ export default function AfterHours() {
                   border: 0,
                   borderRadius: 13,
                   color: "#fff",
-                  background: "linear-gradient(135deg, #8b5cf6, #6366f1)",
+                  background: "linear-gradient(135deg, #7c3aed, #2563eb)",
                   fontWeight: 800,
                   cursor: loading ? "default" : "pointer",
                   minHeight: 48,
