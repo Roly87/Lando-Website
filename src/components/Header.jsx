@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, ArrowRight } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Image } from "@/components/ui/image";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,11 +33,13 @@ export default function Header() {
       <div className="max-w-[1180px] mx-auto px-6 w-full flex items-center justify-between">
         {/* Brand */}
         <Link to="/" className="flex items-center gap-3 no-underline group">
-          <span
-            className="flex items-center justify-center w-9 h-9 rounded-xl text-[15px] font-bold bg-gradient-to-br from-primary to-accent text-primary-foreground shadow-lg group-hover:scale-105 transition-transform duration-300"
-            style={{ fontFamily: "'Syne', sans-serif" }}
-          >
-            LD
+          <span className="block w-9 h-9 rounded-xl overflow-hidden shadow-lg group-hover:scale-105 transition-transform duration-300">
+            <Image
+              src="https://media.base44.com/images/public/6a691477eeba47d9f6e54520/a8a257385_LDicon2.png"
+              alt="Lando Del Rio logo"
+              fittingType="fill"
+              className="w-full h-full"
+            />
           </span>
           <span className="flex flex-col">
             <span
