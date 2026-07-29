@@ -35,7 +35,7 @@ export default function Header() {
         <Link to="/" className="flex items-center gap-3 no-underline group">
           <span className="block w-9 h-9 rounded-xl overflow-hidden shadow-lg group-hover:scale-105 transition-transform duration-300">
             <Image
-              src="https://media.base44.com/images/public/6a691477eeba47d9f6e54520/a8a257385_LDicon2.png"
+              src="https://media.base44.com/images/public/6a691477eeba47d9f6e54520/9338c38ce_LD-App-Icon.png"
               alt="Lando Del Rio logo"
               fittingType="fill"
               className="w-full h-full"
