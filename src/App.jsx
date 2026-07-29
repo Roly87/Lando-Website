@@ -9,6 +9,11 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
 import AfterHours from './pages/AfterHours';
+import Story from './pages/Story';
+import World from './pages/World';
+import Work from './pages/Work';
+import Studio from './pages/Studio';
+import Culture from './pages/Culture';
 import Layout from './components/Layout';
 // Add page imports here
 
@@ -39,6 +44,11 @@ const AuthenticatedApp = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/AfterHours" element={<AfterHours />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/world" element={<World />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/studio" element={<Studio />} />
+        <Route path="/culture" element={<Culture />} />
         {/* Add your page Route elements here */}
       </Route>
       <Route path="*" element={<PageNotFound />} />

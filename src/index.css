@@ -136,6 +136,10 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading) !important; }
   background-size: 200% auto;
 }
 
+.animate-float-a { animation: floatA 12s ease-in-out infinite; }
+.animate-float-b { animation: floatB 15s ease-in-out infinite reverse; }
+.animate-spark { animation: sparkPulse 2s infinite; }
+
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;

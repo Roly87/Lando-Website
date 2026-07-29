@@ -15,11 +15,11 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { href: "#story", label: "Story" },
-    { href: "#world", label: "My World" },
-    { href: "#work", label: "Work" },
-    { href: "#studio", label: "Studio" },
-    { href: "#culture", label: "Culture" },
+    { to: "/story", label: "Story" },
+    { to: "/world", label: "My World" },
+    { to: "/work", label: "Work" },
+    { to: "/studio", label: "Studio" },
+    { to: "/culture", label: "Culture" },
   ];
 
   return (
@@ -60,13 +60,13 @@ export default function Header() {
         {/* Desktop nav */}
         <nav className="hidden sm:flex items-center gap-2">
           {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
+            <Link
+              key={link.to}
+              to={link.to}
               className="px-4 py-2 rounded-full text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-all duration-200 no-underline"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <Link
             to="/AfterHours"
@@ -96,14 +96,14 @@ export default function Header() {
                 Home
               </Link>
               {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
+                <Link
+                  key={link.to}
+                  to={link.to}
                   className="block px-4 py-3 rounded-xl text-base font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
                   onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
               <div className="my-4 h-px bg-border w-full" />
               <Link
